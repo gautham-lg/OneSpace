@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+<title>OneSpace.Inc</title>
+</head>
+<body>
+
+<div>
+<!-- 
+class navbar is added and ul tags are added with class navbar-nav and li items are added with class nav-item */
+and the corresponding a tag is added with class = nav-link.
+
+class = navbar-expand will stretch the horizontal navbar to vertical and class = bg-light gives a nice border with transparency
+
+class navbar-light changes the blue text to black
+
+to add a brand - use an anchor with class - navbar-brand
+
+class = ml-auto changes and adds margin left with auto to adjust the list towards right
+
+use button shown below to install button and add Div to toggle the navbar - need to use java Script taps as well.
+-->
+
+<section id="header">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    
+		<a class="navbar-brand" href="">OneSpace</a>
+		
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="index.html" onclick="func()" >Home</a> </li>
+				<li class="nav-item" ><a class="nav-link" href="#about">About</a></li>
+				<li class="nav-item" ><a class="nav-link" href="#content">Profile</a></li>
+				<li class="nav-item" ><a class="nav-link" href="#footer">Contact</a></li>
+				<li class="nav-item" ><a class="nav-link" href="Products.html">Product</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active" data-interval="5000">
+	      <img src="slider3.png" class="d-block w-100" alt="nature">
+	      <div class="carousel-caption">
+	        <h2>Service</h2>
+	        <p style="color: white;">We Provide service around the globe</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item" data-interval="5000" >
+	      <img src="slider1.png" class="d-block w-100" alt="nature">
+	      <div class="carousel-caption">
+	        <h2>Business</h2>
+	        <p>Our business model is flexible and efficient </p>
+	      </div>
+	    </div>
+	    <div class="carousel-item" data-interval="5000" >
+	      <img src="slider2.png" class="d-block w-100" alt="nature">
+	      <div class="carousel-caption">
+	        <h2>Sales</h2>
+	        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>	
+</section>
+
+
+
+
+
+<section id="about" >
+<h1>OneSpace</h1>
+<p style="margin-top: 2rem;text-align: left;justify-content:center;" >OneSpace.org believes in providing efficient solutions to users across globe. We take pride in being a member of your community by maintaining trust and harmony . Register to explore more about us .</p>
+
+<p style="margin-top: 2rem;text-align: left;justify-content:center;" >OneSpace is more than just a platform. Our experts work side by side with your team to plan and execute a wide variety of e-commerce initiatives at scale, maximizing your performance while decreasing the burden on your internal teams.</p>
+</section>
+<hr>
+<section id="content">
+<h1>Content</h1>
+
+<div class="row">
+    <div class="col-sm">
+      <i class="icon fas fa-heart fa-4x"></i>
+      <h3><b>Easy to use</b></h3>
+      <p>Just install and we are good to go</p>
+    </div>
+    <div class="col-sm">
+    <i class="icon fas fa-users fa-4x"></i>
+    <h3><b>Elite to client</b></h3>
+      <p>Client remote setup with AI tools</p>
+    </div>
+    <div class="col-sm">
+    <i class="icon fas fa-hands-helping fa-4x"></i>
+    <h3><b>Service oriented policy</b></h3>
+      <p>Service first mind set</p>
+    </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Android</h5>
+        <p class="card-text">Go to Playstore or click on the button below</p>
+        <a href="#" class="btn btn-dark"><i class="icon-btn fab fa-google-play"></i>Play Store</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">IOS</h5>
+        <p class="card-text">Go to App store or click on the button below</p>
+        <a href="#" class="btn btn-dark"><i class="icon-btn fab fa-apple"></i>App Store</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+</section>
+
+</div>
+
+
+<footer id="footer">
+<div class="footer-content">
+<p>OneSpace.Inc</p>
+<p>All Rights reserved &#169; 2020</p>
+
+<a href="https://www.instagram.com/_the._guy._.next_.door_/"><i class="icon-footer fab fa-instagram fa-2x"></i></a>
+
+<a href="https://www.facebook.com/l.gautham"><i class="icon-footer fab fa-facebook-square fa-2x"></i></a>
+
+<a href="mailto:gauthamlg.6@gmail.com?subject=OneSpace.Inc" ><i class="icon-footer fas fa-envelope fa-2x"></i></a>
+
+<a href="https://www.linkedin.com/in/gautham-lg-5a76b212b/"><i class="icon-footer fab fa-linkedin fa-2x"></i></a>
+<a href="https://api.whatsapp.com/send?phone=8985647800"><i class="icon-footer fab fa-whatsapp fa-2x"></i></a>
+
+
+
+<div style="text-align:right;" >Designed <i class="fas fa-heart" style="color: #f40552;"></i> Gautham .</div>
+
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

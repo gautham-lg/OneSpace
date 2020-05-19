@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+<title>OneSpace.Inc</title>
+</head>
+<body>
+
+<div>
+<!-- 
+class navbar is added and ul tags are added with class navbar-nav and li items are added with class nav-item */
+and the corresponding a tag is added with class = nav-link.
+
+class = navbar-expand will stretch the horizontal navbar to vertical and class = bg-light gives a nice border with transparency
+
+class navbar-light changes the blue text to black
+
+to add a brand - use an anchor with class - navbar-brand
+
+class = ml-auto changes and adds margin left with auto to adjust the list towards right
+
+use button shown below to install button and add Div to toggle the navbar - need to use java Script taps as well.
+-->
+
+<section id="header">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    
+		<a class="navbar-brand" href="">OneSpace</a>
+		
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="#">Home</a> </li>
+				<li class="nav-item" ><a class="nav-link" href="#about">About</a></li>
+				<li class="nav-item" ><a class="nav-link" href="#content">Profile</a></li>
+				<li class="nav-item" ><a class="nav-link" href="#footer">Contact</a></li>
+				<li class="nav-item" ><a class="nav-link" href="">Product</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+<section id="products-content">
+<button type="button" class="btn btn-secondary btn-lg btn-block" onclick="Say_oy()">Alert Me</button>
+</section>
+	
+	<br>
+	
+<button type="button" onclick="Color()" class="btn btn-primary btn-lg">Click to Set Background Colours</button>
+<button type="button" class="btn btn-secondary btn-lg">Click to set back to default</button>
+
+<button type="button" onclick="DateShow()" class="btn btn-primary btn-lg">Click to show Date</button>
+
+</div>
+
+<br>
+<br>
+<br>
+
+Name = <br>
+<input type="text" id="name">
+<input type="button" value="submit" onmouseover="Name()">
+
+<br>
+<br>
+
+
+
+<footer id="footer">
+<div class="footer-content">
+<p>OneSpace.Inc</p>
+<p>All Rights reserved &#169; 2020</p>
+
+<a href="https://www.instagram.com/_the._guy._.next_.door_/"><i class="icon-footer fab fa-instagram fa-2x"></i></a>
+
+<a href="https://www.facebook.com/l.gautham"><i class="icon-footer fab fa-facebook-square fa-2x"></i></a>
+
+<a href="https://www.linkedin.com/in/gautham-lg-5a76b212b/"><i class="icon-footer fab fa-linkedin fa-2x"></i></a>
+<a href="https://api.whatsapp.com/send?phone=8985647800"><i class="icon-footer fab fa-whatsapp fa-2x"></i></a>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
